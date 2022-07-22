@@ -6,4 +6,7 @@ p {
 .app-wrapper {
   background-color: $nav-bg-color;
   color: var(--text-color);
+  .button-bg {
+    background-color: var(--button-bg);
+  }
 }
