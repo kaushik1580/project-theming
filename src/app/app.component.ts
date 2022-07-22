@@ -12,6 +12,6 @@ export class AppComponent {
 
   toggleThem() {
     this.is_theme_shown = !this.is_theme_shown
-    document.documentElement.style.setProperty('--background', this.is_theme_shown ? 'red' : 'yellow');
+    document.documentElement.style.setProperty('--background', this.is_theme_shown ? '#F0FFFF' : '#FFA69E');
   }
 }
